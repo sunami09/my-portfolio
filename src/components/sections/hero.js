@@ -64,8 +64,24 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I am a computer science student at California State University, Chico with a strong background in coding and project management. I am a 5-Star coder at <a href ="https://www.codechef.com/rankings/APRIL21B?itemsPerPage=100&order=asc&page=1&search=sunami09&sortBy=rank">CodeChef</a>, a <a href ="https://drive.google.com/file/d/1-HCcVl6m3zBNi3E8qXgwkY961rLdrieT/view?usp=sharing">Google CodeJam 2022</a> ranker and <a href ="https://drive.google.com/file/d/1ngkFED1gPousjVr6Q5wWppd-uBOT9WBU/view?usp=sharing">Linux Scholar 2022</a> scholarship recipient.
-        .
+        I am a computer science student at California State University, Chico with a strong
+        background in coding and project management. I am a 5-Star coder at{' '}
+        <a href="https://www.codechef.com/rankings/APRIL21B?itemsPerPage=100&order=asc&page=1&search=sunami09&sortBy=rank">
+          CodeChef
+        </a>
+        , a{' '}
+        <a href="https://drive.google.com/file/d/1-HCcVl6m3zBNi3E8qXgwkY961rLdrieT/view?usp=sharing">
+          Google CodeJam 2022
+        </a>{' '}
+        ranker,{' '}
+        <a href="https://drive.google.com/file/d/1ngkFED1gPousjVr6Q5wWppd-uBOT9WBU/view?usp=sharing">
+          Linux Scholar 2022
+        </a>{' '}
+        scholarship recipient and was invited to the{' '}
+        <a href="https://drive.google.com/file/d/1njO3UTkPgvFjZ0i0WGIyKE5wSHCnlInf/view?usp=sharing">
+          Stanford University Hackathon 2023
+        </a>
+        . .
       </p>
     </>
   );
