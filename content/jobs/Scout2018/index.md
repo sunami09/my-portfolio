@@ -1,9 +1,9 @@
 ---
 date: '2020-05-10'
-title: 'Tech Lead'
-company: 'Multiprocessing Muggles (CLUB)'
+title: 'Web Developer'
+company: 'Multiprocessing Muggles'
 location: 'Menlo Park, CA'
-range: 'May 2020 - August 2022'
+range: 'July 2021 - August 2022'
 url: 'https://www.linkedin.com/company/multiprocessingmuggles/'
 ---
 
