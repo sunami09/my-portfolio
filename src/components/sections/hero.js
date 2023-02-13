@@ -81,7 +81,7 @@ const Hero = () => {
         <a href="https://drive.google.com/file/d/1njO3UTkPgvFjZ0i0WGIyKE5wSHCnlInf/view?usp=sharing">
           Stanford University Hackathon 2023
         </a>
-        . .
+        .
       </p>
     </>
   );
