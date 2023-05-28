@@ -1,7 +1,7 @@
 ---
 date: '2022-11-21'
 title: 'Teaching & Lab Assistant'
-company: 'California State University, Chico'
+company: 'CSU, Chico'
 location: 'Student Learning Center, Chico'
 range: 'August 2022 - Present'
 url: 'https://www.csuchico.edu/slc/subject-tutoring/about/sunami-dasgupta.shtml'
