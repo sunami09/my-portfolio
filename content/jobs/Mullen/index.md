@@ -1,7 +1,7 @@
 ---
 date: '2019-04-15'
 title: 'President'
-company: 'Informatics Club (High School)'
+company: 'Informatics Club'
 location: 'Kolkata, India'
 range: 'April 2019 - August 2021'
 url: 'https://www.linkedin.com/company/informatics-club/'
