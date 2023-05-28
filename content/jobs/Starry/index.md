@@ -1,7 +1,7 @@
 ---
 date: '2022-08-22'
 title: 'Vice President'
-company: 'GAC Grigora Avis (CLUB)'
+company: 'Grigora Avis'
 location: 'Chico, CA'
 range: 'August - present'
 url: 'https://starry.com/'
