@@ -1,7 +1,7 @@
 ---
 date: '2022-05-10'
 title: 'Software Development Intern'
-company: 'Multiprocessing Muggles'
+company: 'M Muggles'
 location: 'Menlo Park, CA'
 range: 'May 2022 - July 2022'
 url: 'https://www.linkedin.com/company/multiprocessingmuggles/'
