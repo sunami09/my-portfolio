@@ -3,7 +3,7 @@ date: '2022-05-01'
 title: 'Project Management Intern'
 company: 'GlobalShala'
 location: 'Gurgaon, Haryana'
-range: 'May - July 2022'
+range: 'May 2022 - July 2022'
 url: 'https://drive.google.com/file/d/1W5HaM3mhRFOUN1B_6E4MSBxqq6CLAYra/view?usp=sharing'
 ---
 
