@@ -59,12 +59,12 @@ const Hero = () => {
   }, []);
 
   const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Sunami Dasgupta.</h2>;
+  const two = <h2 className="big-heading">Sunami.</h2>;
   const three = <h3 className="big-heading">I build things for the web.</h3>;
   const four = (
     <>
       <p>
-Hey there! 🌟 I'm Sunami, a budding computer scientist from California State University, Chico. But wait, I'm not just about textbooks and lectures. You see, I've got this knack for turning caffeine into code. Yep, I'm a 5-Star coder over at <a href="https://www.codechef.com/rankings/APRIL21B?itemsPerPage=100&order=asc&page=1&search=sunami09&sortBy=rank">CodeChef</a>, and I've danced with the algorithms at <a href="https://drive.google.com/file/d/1-HCcVl6m3zBNi3E8qXgwkY961rLdrieT/view?usp=sharing">Google CodeJam 2022</a>. Oh, and that shiny <a href="https://drive.google.com/file/d/1ngkFED1gPousjVr6Q5wWppd-uBOT9WBU/view?usp=sharing">Linux Scholar 2022</a> badge? That's mine too! Over at Lawrence Berkeley National Lab, I jazzed up data handling with Python, boosted network visibility by a whopping 40%, and played around with Docker for some seamless app experiences. Ready to geek out with me? Let's code, innovate, and have a blast! 🚀
+Hey there! 🌟 I'm Sunami, navigating the tech waters at California State University, Chico. But wait, I'm not just about textbooks and lectures. You see, I've got this knack for turning caffeine into code. Ever heard of a 5-Star coder? Yep, that's me over at <a href="https://www.codechef.com/rankings/APRIL21B?itemsPerPage=100&order=asc&page=1&search=sunami09&sortBy=rank">CodeChef</a>. And oh, did I casually mention I'm a <a href="https://drive.google.com/file/d/1-HCcVl6m3zBNi3E8qXgwkY961rLdrieT/view?usp=sharing">Google CodeJam 2022</a> ranker? 🌟 But wait, there's more! I've also got the <a href="https://drive.google.com/file/d/1ngkFED1gPousjVr6Q5wWppd-uBOT9WBU/view?usp=sharing">Linux Scholar 2022</a> scholarship under my belt. Over at Lawrence Berkeley National Laboratory,I gave a fresh spin to data handling using Python and cranked up our network visibility by a whopping 40%, and played around with Docker for some seamless app experiences. Ready to geek out with me? Let's code, innovate, and have a blast! 🚀
 </p>
     </>
   );
