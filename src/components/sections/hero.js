@@ -64,25 +64,8 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I am a computer science student at California State University, Chico with a strong
-        background in coding and project management. I am a 5-Star coder at{' '}
-        <a href="https://www.codechef.com/rankings/APRIL21B?itemsPerPage=100&order=asc&page=1&search=sunami09&sortBy=rank">
-          CodeChef
-        </a>
-        , a{' '}
-        <a href="https://drive.google.com/file/d/1-HCcVl6m3zBNi3E8qXgwkY961rLdrieT/view?usp=sharing">
-          Google CodeJam 2022
-        </a>{' '}
-        ranker,{' '}
-        <a href="https://drive.google.com/file/d/1ngkFED1gPousjVr6Q5wWppd-uBOT9WBU/view?usp=sharing">
-          Linux Scholar 2022
-        </a>{' '}
-        scholarship recipient and was invited to the{' '}
-        <a href="https://drive.google.com/file/d/1njO3UTkPgvFjZ0i0WGIyKE5wSHCnlInf/view?usp=sharing">
-          Stanford University Hackathon 2023
-        </a>
-        .
-      </p>
+Hey there! 🌟 I'm Sunami, a budding computer scientist from California State University, Chico. But wait, I'm not just about textbooks and lectures. You see, I've got this knack for turning caffeine into code. Yep, I'm a 5-Star coder over at <a href="https://www.codechef.com/rankings/APRIL21B?itemsPerPage=100&order=asc&page=1&search=sunami09&sortBy=rank">CodeChef</a>, and I've danced with the algorithms at <a href="https://drive.google.com/file/d/1-HCcVl6m3zBNi3E8qXgwkY961rLdrieT/view?usp=sharing">Google CodeJam 2022</a>. Oh, and that shiny <a href="https://drive.google.com/file/d/1ngkFED1gPousjVr6Q5wWppd-uBOT9WBU/view?usp=sharing">Linux Scholar 2022</a> badge? That's mine too! Over at Lawrence Berkeley National Lab, I jazzed up data handling with Python, boosted network visibility by a whopping 40%, and played around with Docker for some seamless app experiences. Ready to geek out with me? Let's code, innovate, and have a blast! 🚀
+</p>
     </>
   );
   // const five = (
