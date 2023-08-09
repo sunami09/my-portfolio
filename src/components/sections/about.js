@@ -136,11 +136,11 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello, my name is Sunami and I am a computer science student at <a href="https://www.csuchico.edu/">California State University - Chico</a>. I possess a strong passion for developing cutting-edge technology solutions and have gained proficiency in programming languages such as <b>C/C++, Python, and JavaScript</b>, as well as frameworks like <b>React, Node, and MongoDB</b>. 
-              </p>
-              <p>
-                My proficiency in these technologies have been demonstrated through my outstanding performance in global coding competitions, where I achieved the <a href ="https://www.codechef.com/rankings/APRIL21B?itemsPerPage=100&order=asc&page=1&search=sunami09&sortBy=rank">9th rank in CodeChef</a> and <a href ="https://drive.google.com/file/d/1-HCcVl6m3zBNi3E8qXgwkY961rLdrieT/view?usp=sharing">647th rank in Google Codejam</a>. Some of my recent projects include the development of a <a href="https://github.com/sunami09/AI_New_Age">desktop assistant(AI)</a> utilizing AI and NLP technologies in Python, and a SaaS-based <a href="https://netflix-clone-v1-sunami.netlify.app/login">movie streaming app</a> built with TypeScript, REST APIs, and Material UI. I am committed to sharing my knowledge and expertise to make a significant impact in the technology industry.
-            </p>
+Hey there! I'm Sunami, a tech enthusiast and computer science aficionado from <a href="https://www.csuchico.edu/">California State University - Chico</a>. When I'm not diving deep into code or sipping on my favorite brew, I'm passionately crafting solutions using <b>C/C++, Python, and JavaScript</b>, and playing around with cool frameworks like <b>React, Node, and MongoDB</b>. 🚀
+</p>
+<p>
+My coding adventures have taken me to some exciting places: from clinching the <a href ="https://www.codechef.com/rankings/APRIL21B?itemsPerPage=100&order=asc&page=1&search=sunami09&sortBy=rank">9th rank in CodeChef</a> to making a mark at <a href ="https://drive.google.com/file/d/1-HCcVl6m3zBNi3E8qXgwkY961rLdrieT/view?usp=sharing">Google Codejam</a>. Oh, and did I mention the time I rocked the sustainability track at the Stanford University Hackathon? Yep, brought home the 'Runner Up' title! 🌱 But it's not just about the trophies. Whether I'm breathing life into a <a href="https://github.com/sunami09/AI_New_Age">desktop assistant(AI)</a> or binge-watching on a <a href="https://netflix-clone-v1-sunami.netlify.app/login">movie streaming app</a> I whipped up, I believe in making tech both innovative and fun. So, ready to join me on this exhilarating tech journey? Let's go! 🌟
+</p>
 
             {/* <p>
               Fast-forward to today, and I’ve had the privilege of working at{' '}
