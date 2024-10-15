@@ -9,7 +9,7 @@ const StyledHeroSection = styled.section`
   ${({ theme }) => theme.mixins.flexCenter};
   flex-direction: column;
   align-items: flex-start;
-  min-height: 100vh;
+  min-height: 90vh;
   padding: 0;
 
   @media (max-width: 480px) and (min-height: 700px) {
@@ -29,14 +29,14 @@ const StyledHeroSection = styled.section`
   }
 
   h3 {
-    margin-top: 10px;
+    margin-top: 15px;
     color: var(--slate);
     line-height: 0.9;
   }
 
   p {
     margin: 20px 0 0;
-    max-width: 540px;
+    max-width: 940px;
   }
 
   .email-link {
@@ -60,12 +60,22 @@ const Hero = () => {
 
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Sunami Dasgupta.</h2>;
-  const three = <h3 className="big-heading">I build things for the web.</h3>;
+  const three = <h3 style={{ fontSize: '2rem' }}>I build scalable and intelligent software systems.</h3>;
+
   const four = (
     <>
-      <p>
-Hey there! 🌟 I'm Sunami, navigating the tech waters at California State University, Chico. But wait, I'm not just about textbooks and lectures. You see, I've got this knack for turning caffeine into code. Ever heard of a 5-Star coder? Yep, that's me over at <a href="https://www.codechef.com/rankings/APRIL21B?itemsPerPage=100&order=asc&page=1&search=sunami09&sortBy=rank">CodeChef</a>. And oh, did I casually mention I'm a <a href="https://drive.google.com/file/d/1-HCcVl6m3zBNi3E8qXgwkY961rLdrieT/view?usp=sharing">Google CodeJam 2022</a> ranker? 🌟 But wait, there's more! I've also got the <a href="https://drive.google.com/file/d/1ngkFED1gPousjVr6Q5wWppd-uBOT9WBU/view?usp=sharing">Linux Scholar 2022</a> scholarship under my belt. Over at Lawrence Berkeley National Laboratory,I gave a fresh spin to data handling using Python and cranked up our network visibility by a whopping 40%, and played around with Docker for some seamless app experiences. Ready to geek out with me? Let's code, innovate, and have a blast! 🚀
-</p>
+     <p>
+     I’m a passionate builder, coding my way through <a>California State University, Chico</a>, and beyond. With a love for blending technology and creativity, I focus on bringing innovative solutions to life—whether it’s improving user experiences at scale or diving deep into complex system designs.
+     </p>
+     <p>
+     I’ve had the privilege of working on projects like the <a>‘Generative Object Grab’</a> at <a>Microsoft</a>, enhancing image manipulation for millions of users, and contributing to cutting-edge <a>network monitoring systems</a> at <a>ESNet</a>. Every challenge excites me, from developing intuitive apps to <a>publishing research</a> on AI-driven skin cancer detection.
+     </p>
+     <p>
+     My <a>philosophy?</a> Code should not only solve problems but also create delightful, seamless experiences. When I'm not coding, you can find me mentoring fellow students or experimenting with new tech stacks to bring bold ideas into reality.
+     </p>
+     <p>
+     If you’re ready to explore, innovate, and solve problems together—let’s connect and build something amazing! 💻✨
+     </p>
     </>
   );
   // const five = (

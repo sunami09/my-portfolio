@@ -1,9 +1,9 @@
 ---
-date: '2023-05-22'
+date: '2023-05-23'
 title: 'Software Engineering Intern'
-company: 'Berkeley National Labs'
+company: 'Lawrence Berkeley National Labarotory'
 location: 'Berkeley, CA'
-range: 'May 2023 - August 2022'
+range: 'May 2023 - August 2023'
 url: 'https://www.lbl.gov/'
 ---
 

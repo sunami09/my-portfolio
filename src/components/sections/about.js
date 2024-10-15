@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from 'react';
+import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import { StaticImage } from 'gatsby-plugin-image';
 import styled from 'styled-components';
 import { srConfig } from '@config';
@@ -6,7 +7,7 @@ import sr from '@utils/sr';
 import { usePrefersReducedMotion } from '@hooks';
 
 const StyledAboutSection = styled.section`
-  max-width: 900px;
+  max-width: 1000px;
 
   .inner {
     display: grid;
@@ -21,7 +22,7 @@ const StyledAboutSection = styled.section`
 const StyledText = styled.div`
   ul.skills-list {
     display: grid;
-    grid-template-columns: repeat(2, minmax(140px, 200px));
+    grid-template-columns: repeat(3, minmax(140px, 200px));
     grid-gap: 0 10px;
     padding: 0;
     margin: 20px 0 0 0;
@@ -45,6 +46,26 @@ const StyledText = styled.div`
       }
     }
   }
+    a {
+  position: relative;
+  text-decoration: none;
+  color: var(--green);
+}
+
+a:before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--green);
+  transition: width 0.3s ease;
+}
+
+a:hover:before {
+  width: 100%;
+}
 `;
 const StyledPic = styled.div`
   position: relative;
@@ -126,7 +147,35 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['C/C++', 'Python', 'JavaScript', 'React', 'Node.js', 'MongoDB', 'Express.js', 'Mongoose', 'jQuery', 'NoSQL'];
+  const skills = [
+    'C/C++',
+    'Python',
+    'JavaScript',
+    'TypeScript',
+    'React',
+    'Redux',
+    'Node.js',
+    'MongoDB',
+    'Express.js',
+    'Mongoose',
+    'jQuery',
+    'NoSQL',
+    'SQL',
+    'Docker',
+    'Kubernetes',
+    'Prometheus',
+    'Grafana',
+    'TensorFlow',
+    'PyTorch',
+    'Django',
+    'REST API',
+    'Shell Scripting',
+    'TCP/IP',
+    'Linux/Unix',
+    'Git',
+    'Hadoop'
+  ];
+  
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -136,31 +185,15 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-Hey there! I'm Sunami, a tech enthusiast and computer science aficionado from <a href="https://www.csuchico.edu/">California State University - Chico</a>. When I'm not diving deep into code or sipping on my favorite brew, I'm passionately crafting solutions using <b>C/C++, Python, and JavaScript</b>, and playing around with cool frameworks like <b>React, Node, and MongoDB</b>. 🚀
-</p>
-<p>
-My coding adventures have taken me to some exciting places: from clinching the <a href ="https://www.codechef.com/rankings/APRIL21B?itemsPerPage=100&order=asc&page=1&search=sunami09&sortBy=rank">9th rank in CodeChef</a> to making a mark at <a href ="https://drive.google.com/file/d/1-HCcVl6m3zBNi3E8qXgwkY961rLdrieT/view?usp=sharing">Google Codejam</a>. But it's not just about the trophies. Whether I'm breathing life into a <a href="https://github.com/sunami09/AI_New_Age">desktop assistant(AI)</a> or binge-watching on a <a href="https://netflix-clone-v1-sunami.netlify.app/login">movie streaming app</a> that I built, I believe in making tech both innovative and fun. So, ready to join me on this exhilarating tech journey? Let's go! 🌟
-</p>
-
-            {/* <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
-            </p> */}
-
-            {/* <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
-              </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
-            </p> */}
+            As a Computer Science major at California State University - Chico, I’ve had the opportunity to dive deep into various fields, from distributed systems to machine learning. Along the way, I’ve honed my skills in C/C++, Python, JavaScript, and cutting-edge frameworks like React, Node.js, and MongoDB.
+            </p>
+            {/* New Section for Coding Highlights */}
+            <h3>Some highlights of my coding journey include:</h3>
+            <ul>
+              <li><strong><a href="https://www.codechef.com/rankings/APRIL21B?itemsPerPage=100&order=asc&page=1&search=sunami09&sortBy=rank">9th Rank in CodeChef</a></strong> — out of 60,000 global participants, I've demonstrated my skills in competitive programming, refining my problem-solving techniques and efficiency.</li>
+              <li><strong><a href="https://drive.google.com/file/d/1-HCcVl6m3zBNi3E8qXgwkY961rLdrieT/view">Google Codejam Participant</a></strong> — Ranked 607 out of 45,000, showing my knack for tackling real-world algorithmic challenges.</li>
+              <li><strong><a href="https://netlix-clonev1-sunami.netlify.app/login">Developed a Movie Streaming App</a></strong> — Combining React and Node.js, I built a full-stack app that mirrors real-world streaming platforms.</li>
+            </ul>
 
             <p>Here are a few technologies I’ve been working with recently:</p>
           </div>
